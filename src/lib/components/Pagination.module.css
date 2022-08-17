@@ -1,0 +1,33 @@
+
+.pagination_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button_container {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 36px;
+  height: 36px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.current {
+  color: red;
+}
+
+.disabled {
+  cursor: not-allowed;
+  color: #A0A0A0;
+}
